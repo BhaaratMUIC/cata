@@ -44,10 +44,3 @@ def create_task2_data(num_samples=1000, d=4, noise_std=0.2, test_size=0.2):
 if __name__ == "__main__":
     create_task1_data()
     create_task2_data()
-
-	##
-	## train_read = pd.read_csv("xor_train.csv")
-	## test_read = pd.read_csv("xor_test.csv")
-	
-	## print(train_read.head())
-	## print(test_read.head())
